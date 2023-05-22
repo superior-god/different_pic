@@ -7,10 +7,9 @@
 # @Project: different_pic
 # @Package: 
 # @Ref:
-from skimage.metrics import structural_similarity
-import argparse
-import imutils
 import cv2
+import imutils
+from skimage.metrics import structural_similarity
 
 # 加载两张图片：
 # 注意，从文件路径复制来的斜杠是反的，记得更改，且用英文路径，图片格式为jpg,否则会报错
